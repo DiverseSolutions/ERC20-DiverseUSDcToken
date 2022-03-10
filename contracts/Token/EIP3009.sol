@@ -3,6 +3,7 @@ pragma solidity 0.6.12;
 
 import "./AbstractFiatTokenV2.sol";
 import "./EIP712Domain.sol";
+import "./EIP721Library.sol";
 
 // File: contracts/v2/EIP3009.sol
 /**

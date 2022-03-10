@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
+import "./ECRecoverLibrary.sol";
+
 // File: contracts/util/EIP712.sol
 /**
  * @title EIP712

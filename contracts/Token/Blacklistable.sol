@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
+import "./Ownable.sol";
+
 // File: contracts/v1/Blacklistable.sol
 /**
  * @title Blacklistable Token

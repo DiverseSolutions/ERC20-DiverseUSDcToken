@@ -1,10 +1,11 @@
-// File: @openzeppelin/contracts/token/ERC20/SafeERC20.sol
-
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 import "./SafeMathLibrary.sol";
 import "./AddressLibrary.sol";
+import "./IERC20.sol";
 
+// File: @openzeppelin/contracts/token/ERC20/SafeERC20.sol
 /**
  * @title SafeERC20
  * @dev Wrappers around ERC20 operations that throw on failure (when the token

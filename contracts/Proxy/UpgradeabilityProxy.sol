@@ -2,6 +2,7 @@
 pragma solidity ^0.4.24;
 
 import "./Proxy.sol";
+import "./AddressUtilsLibrary.sol";
 
 
 // File: zos-lib/contracts/upgradeability/UpgradeabilityProxy.sol
