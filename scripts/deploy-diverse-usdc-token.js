@@ -10,7 +10,7 @@ async function main() {
   let tokenName = "Diverse USDC"
   let tokenSymbol = "dUSDC"
   let tokenCurrency = "USD"
-  let tokenDecimals = 18
+  let tokenDecimals = 6
   let newMasterMinter = deployer.address
   let newPauser = deployer.address 
   let newBlacklister = deployer.address

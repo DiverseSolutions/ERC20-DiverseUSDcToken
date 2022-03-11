@@ -5,7 +5,7 @@ async function main() {
 
   const tokenInstance = await hre.ethers.getContractAt("DiverseUsdcToken",process.env.DIVERSE_USDC_ADDRESS);
 
-  await tokenInstance.mint(deployer.address,hre.ethers.utils.parseEther("10000000000"))
+  await tokenInstance.mint(deployer.address,hre.ethers.utils.parseEther("10000000000",6))
 
   console.log("Diverse USDC Token deployed to:", tokenInstance.address);
   console.log("Diverse USDC Token Name :", await tokenInstance.name());
