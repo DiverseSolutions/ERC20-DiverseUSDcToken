@@ -1,4 +1,8 @@
+require('dotenv').config()
+
 require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-etherscan");
+
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -21,6 +25,11 @@ module.exports = {
     "truffle-dashboard": {
       url: "http://localhost:24012/rpc"
     }
+  },
+  etherscan: {
+    apiKey: {
+      polygonMumbai: process.env.MUMBAI_API_KEY,
+    },
   },
   solidity: {
     compilers : [
