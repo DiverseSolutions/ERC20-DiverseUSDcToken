@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
-import "./AbstractFiatTokenV1.sol";
-import "./Ownable.sol";
-import "./Pausable.sol";
-import "./Blacklistable.sol";
+import "./Token/AbstractFiatTokenV1.sol";
+import "./Token/Ownable.sol";
+import "./Token/Pausable.sol";
+import "./Token/Blacklistable.sol";
 
-import "./SafeMathLibrary.sol";
+import "./Token/SafeMathLibrary.sol";
 
 // File: contracts/v1/FiatTokenV1.sol
 /**

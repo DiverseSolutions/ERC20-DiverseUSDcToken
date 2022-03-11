@@ -9,7 +9,7 @@ import "./Proxy/AdminUpgradeabilityProxy.sol";
  * @title FiatTokenProxy
  * @dev This contract proxies FiatToken calls and enables FiatToken upgrades
 */ 
-contract FiatTokenProxy is AdminUpgradeabilityProxy {
+contract DiverseUsdcTokenProxy is AdminUpgradeabilityProxy {
     constructor(address _implementation) public AdminUpgradeabilityProxy(_implementation) {
     }
 }

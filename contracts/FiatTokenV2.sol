@@ -2,8 +2,8 @@
 pragma solidity 0.6.12;
 
 import "./FiatTokenV1_1.sol";
-import "./EIP3009.sol";
-import "./EIP2612.sol";
+import "./Token/EIP3009.sol";
+import "./Token/EIP2612.sol";
 
 // File: contracts/v2/FiatTokenV2.sol
 /**

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
-import "./Token/FiatTokenV2.sol";
+import "./FiatTokenV2.sol";
 
 
 // File: contracts/v2/FiatTokenV2_1.sol

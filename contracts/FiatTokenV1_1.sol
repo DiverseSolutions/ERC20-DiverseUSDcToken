@@ -2,7 +2,7 @@
 pragma solidity 0.6.12;
 
 import "./FiatTokenV1.sol";
-import "./Rescuable.sol";
+import "./Token/Rescuable.sol";
 
 // File: contracts/v1.1/FiatTokenV1_1.sol
 /**
