@@ -17,6 +17,11 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
+  networks: {
+    "truffle-dashboard": {
+      url: "http://localhost:24012/rpc"
+    }
+  },
   solidity: {
     compilers : [
       {
